@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Image, StyleSheet, View, Text, Platform } from "react-native";
 import SplashScreen from "@/components/ui/screen/SplashScreen";
 import Dashboard from "@/components/ui/screen/Dashboard";
+import StackNavigator from "@/app/navigation/stack-navigation/StackNavigator";
 
 
 
@@ -12,7 +13,7 @@ export default function HomeScreen() {
             {isLoading?(
                 <SplashScreen onFinish={()=>{setIsLoading(false)}} />
             ):(
-                <Dashboard/>
+                <StackNavigator/>
             )}
         </View>
     );
