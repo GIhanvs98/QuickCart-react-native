@@ -8,6 +8,7 @@ import NotificationScreen from "@/components/ui/screen/other/NotificationScreen"
 import ProfileScreen from "@/components/ui/screen/other/ProfileScreen";
 import SettingsScreen from "@/components/ui/screen/other/SettingsScreen";
 import VoucherScreen from "@/components/ui/screen/other/VoucherScreen";
+import LoginScreen from "@/components/ui/screen/security/LoginScreen";
 const Stack=createStackNavigator();
 export default function StackNavigator(){
   return( <Stack.Navigator>
@@ -38,7 +39,9 @@ export default function StackNavigator(){
           <Stack.Screen name={'Voucher'}
                         options={{title: 'Vouchers'}}
                         component={VoucherScreen}/>
-
+          <Stack.Screen name={'Login'}
+                        options={{title: 'Login Here'}}
+                        component={LoginScreen}/>
 
       </Stack.Navigator>
   )
