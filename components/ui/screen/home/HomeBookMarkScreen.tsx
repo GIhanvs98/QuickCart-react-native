@@ -1,9 +1,10 @@
 import {View,Text,StyleSheet} from "react-native";
 
 export default function HomeBookMarkScreen(){
+   return(
     <View style={styles.container}>
         <Text>Home Cart Screen</Text>
-    </View>
+    </View>)
 }
 const styles=StyleSheet.create({
     container:{

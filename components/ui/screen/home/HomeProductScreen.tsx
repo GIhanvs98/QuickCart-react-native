@@ -1,9 +1,9 @@
 import {View,Text,StyleSheet} from "react-native";
 
 export default function HomeProductScreen(){
-    <View style={styles.container}>
+   return( <View style={styles.container}>
         <Text>Home Product Screen</Text>
-    </View>
+    </View>)
 }
 const styles=StyleSheet.create({
     container:{

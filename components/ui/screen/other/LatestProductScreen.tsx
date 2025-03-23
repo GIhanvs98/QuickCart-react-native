@@ -1,8 +1,9 @@
 import {View,Text,StyleSheet} from "react-native";
 
-export default function HomePageScreen(){
-   return( <View style={styles.container}>
-        <Text>Home Page Screen</Text>
+export default function LatestProductScreen(){
+    return(
+    <View style={styles.container}>
+        <Text>latest</Text>
     </View>)
 }
 const styles=StyleSheet.create({
